@@ -5,9 +5,9 @@ function Input() {
     return (
 
         <InputContainer>
-            <input />
+            <Input />
         </InputContainer>
     )
 }
 
-export default Input
+export default Input;
