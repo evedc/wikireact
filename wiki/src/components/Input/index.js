@@ -5,7 +5,7 @@ function Input() {
     return (
 
         <InputContainer>
-            <Input />
+            <input />
         </InputContainer>
     )
 }
