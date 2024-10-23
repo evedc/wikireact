@@ -7,6 +7,8 @@ function ItemRepo() {
         <ItemContainer>
             <h3>Évelim</h3>
             <p> Descrição</p>
+            <a href="#">Ver repositório</a><br />
+            <a href="#" className="remover">Remover</a>
             <hr />
         </ItemContainer>
 

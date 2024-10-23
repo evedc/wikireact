@@ -1,15 +1,21 @@
+import { useState } from 'react';
 import gitLogo from '../assets/github.png';
 import Input from '../components/Input';
-import ItemRepo from '../components/ItemRepo';
+import Button from '../components/Button';
 import ItemRepo from '../components/ItemRepo';
 import { Container } from './styles';
 
 function App() {
-  return (
 
+  const [repos, setRepos] = useState([]);
+
+
+
+  return (
     <Container>
       <img src={gitLogo} width={72} height={72} alt="github logo" />
-      <input />
+      <Input />
+      <Button />
       <ItemRepo />
     </Container>
   );
